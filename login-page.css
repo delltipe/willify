@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* page background */
+body{
+    background-color: rgb(32, 32, 32);
+}
+
+/* navbar */
+nav{
+    height: 80px;
+    background: rgb(32, 32, 32);
+    color: rgb(66, 217, 108);
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 0;
+}
+
+.nav-items,
+.overview,
+.account{
+    display: flex;
+    font-size: 16px;
+}
+.overview{
+    margin-right: 0 0.5rem;
+}
+
+.logo h2{
+    color: rgb(66, 217, 108);
+    cursor: pointer;
+    margin: 0 0.5rem;
+    font-size: 36px;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+nav li{
+    list-style: none;
+    margin: 0 0.5rem;
+}
+
+.nav-items a{
+    display: block;
+    padding: 8px;
+    background-color: rgb(66, 217, 108);
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(32, 32, 32);
+}
+
+.nav-items a:hover{
+    background-color: rgb(54, 155, 82);
+    transition: all ease-in-out 300ms;
+}
+
+/* login div area */
+.login-back{
+    display: flex;
+    background-color: rgb(14, 14, 14);
+    justify-content: center;
+    padding-top: 216px;
+    padding-bottom: 216px;
+}
+
+.login-space{
+    display: flex;
+    justify-content: center;
+}
+
+.login-box{
+    padding: 24px;
+    background-color: rgb(28, 28, 28);
+    border-radius: 10px;
+}
+
+.login-box h1{
+    color: rgb(66, 217, 108);
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 38px;
+}
+
+.login-box h2{
+    color: white;
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+/* input box styling */
+.login-box input{
+    padding: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 360px;
+    height: 50px;
+    color: rgb(217, 217, 217);
+    background-color: rgb(14, 14, 14);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: rgb(217, 217, 217);
+}
+::-ms-reveal{
+    filter: invert(100%);
+}
+
+/* error styling */
+#login-form h3{
+    text-align: left;
+    padding-top: 4px;
+}
+
+.error{
+    font-size: 12px;
+    font-weight: normal;
+    color: rgb(184, 55, 55);
+}
+
+.login-button{
+    margin-top: 36px;
+    text-align: center;
+}
+
+.login-button button{
+    padding: 10px;
+    padding-left: 140px;
+    padding-right: 140px;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(14, 14, 14);
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(66, 217, 108);
+    cursor: pointer;
+}
+
+/* about div area */
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(32, 32, 32);
+    padding: 48px;
+    text-align: center;
+    justify-content: center;
+}
+
+.logo-about h1{
+    color: rgb(66, 217, 108);
+    cursor: pointer;
+    font-size: 64px;
+}
+
+.about h2{
+    color: rgb(217, 217, 217);
+    cursor: default;
+    font-size: 16px;
+}
+
+.about a{
+    color: rgb(217, 217, 217);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 24px;
+}

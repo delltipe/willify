@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* wallpaper blur */
+body{
+    background-color: rgb(32, 32, 32);
+    background-image: url(images/RapAlbums.png);
+    backdrop-filter: brightness(20%) blur(2px);
+}
+
+/* navbar dan link-link nya */
+nav{
+    height: 80px;
+    background: rgb(32, 32, 32);
+    color: rgb(66, 217, 108);
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 0;
+}
+
+.nav-items,
+.overview,
+.account{
+    display: flex;
+    font-size: 16px;
+}
+.overview{
+    margin-right: 0 0.5rem;
+}
+
+.logo h2{
+    color: rgb(66, 217, 108);
+    cursor: pointer;
+    margin: 0 0.5rem;
+    font-size: 36px;
+}
+
+nav li{
+    list-style: none;
+    margin: 0 0.5rem;
+}
+
+nav a{
+    display: block;
+    padding: 8px;
+    background-color: rgb(66, 217, 108);
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(32, 32, 32);
+}
+
+nav a:hover{
+    background-color: rgb(54, 155, 82);
+    transition: all ease-in-out 300ms;
+}
+
+/* buat highlight text ijo */
+.highlight{
+    color: rgb(66, 217, 108);
+}
+
+/* area tombol signup opsional */
+.connect{
+    display: block;
+    height: 230px;
+    background-color: rgb(28, 28, 28);
+    text-align: center;
+}
+
+.connect h2{
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 50px;
+}
+
+.connect h1{
+    color: white;
+    font-size: 24px;
+    position: relative;
+    top: 50px;
+}
+
+button{
+    color: rgb(32, 32, 32);
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(66, 217, 108);
+    border: none;
+    padding: 8px;
+    position: relative;
+    top: 55px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(54, 155, 82);
+    transition: all ease-in-out 300ms;
+}
+
+/* area karttu musik best seller */
+.best-sellers{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.best-sellers h1{
+    color: white;
+    font-size: 46px;
+}
+
+.best-sellers h2{
+    color: white;
+    font-size: 20px;
+}
+
+.bestseller-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bestseller-container a{
+    text-decoration: none;
+}
+
+/* kartu musik */
+.song-content{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 24px;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 7px;
+    background-color: rgb(14, 14, 14);
+}
+
+.song-content img{
+    height: 200px;
+    width: 200px;
+    filter: none;
+    border-radius: 10px;
+    padding-bottom: 4px;
+}
+
+.song-content h1{
+    color: white;
+    font-size: 16px;
+}
+
+.song-content h2{
+    color: rgb(217, 217, 217);
+    font-size: 12px;
+}
+
+.song-content:hover{
+    background-color: rgb(32, 32, 32);
+    transition: all ease-in-out 300ms;
+}
+
+/* area caption tambahan */
+.discover{
+    display: flex;
+    background-color: rgb(28, 28, 28);
+    padding: 82px;
+    justify-content: center;
+}
+
+.discover h2{
+    color: white;
+    font-size: 32px;
+}
+
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    text-wrap: balance;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p2{
+    margin-top: 40px;
+}
+
+/* area kartu musik recommended */
+.recommended-text{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.recommended-text h1{
+    color: white;
+    font-size: 46px;
+}
+
+.recommended-text h2{
+    color: white;
+    font-size: 20px;
+}
+
+.recommended-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.recommended-container a{
+    text-decoration: none;
+}
+
+/* area about section */
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(32, 32, 32);
+    padding: 48px;
+    text-align: center;
+    justify-content: center;
+}
+
+.logo-about h1{
+    color: rgb(66, 217, 108);
+    cursor: pointer;
+    font-size: 64px;
+}
+
+.about h2{
+    color: rgb(217, 217, 217);
+    cursor: default;
+    font-size: 16px;
+}
+
+.about a{
+    color: rgb(217, 217, 217);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 24px;
+}

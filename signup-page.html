@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Willify</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="signup-page.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav>
+        <div class="logo">
+            <a href="home.html"><h2>Willify</h2></a>
+        </div>
+        <div class="nav-items">
+            <ul class="overview">
+                <li><a href="songs-page.html">Songs List</a></li>
+            </ul>
+            <ul class="account">
+                <li><a href="signup-page.html">Register</a></li>
+                <li><a href="login-page.html">Log In</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- signup box div -->
+    <div class="signup-back">
+        <div class="signup-space">
+            <div class="signup-box">
+                <h1>Sign Up to Start Listening.</h1>
+                <div class="signup-frame">
+                    <!-- input forms -->
+                    <form id="signup-form">
+                        <div>
+                            <h2>Username</h2>
+                            <input type="text" name="username" id="username" placeholder="ex: musicman15">
+                            <h3 class="error" id="username-error"></h3>
+                        </div>
+                        <div>
+                            <h2>Age</h2>
+                            <input type="number" name="age" id="age" placeholder="ex: 18">
+                            <h3 class="error" id="age-error"></h3>
+                        </div>
+                        <div>
+                            <h2>Gender</h2>
+                            <input type="radio" name="gender" id="male" value="male">
+                            <label for="male">Male</label>
+                            <input type="radio" name="gender" id="female" value="female">
+                            <label for="male">Female</label>
+                            <h3 class="error" id="gender-error"></h3>
+                        </div>
+                        <div>
+                            <h2>E-mail</h2>
+                            <input type="email" name="email" id="email" placeholder="ex: name@domain.com">
+                            <h3 class="error" id="email-error"></h3>
+                        </div>
+                        <div>
+                            <h2>Password</h2>
+                            <input type="password" name="password" id="password" placeholder="ex: password">
+                            <h3 class="error" id="password-error"></h3>
+                        </div>
+                        <div>
+                            <h2>Confirm Password</h2>
+                            <input type="password" name="confirm-password" id="confirm-password" placeholder="ex: password">
+                            <h3 class="error" id="confirm-password-error"></h3>
+                        </div>
+                        <div>
+                            <h2>Please agree to our Terms of Services</h2>
+                            <input type="checkbox" name="terms" id="terms">
+                            <label for="terms">I agree to the Terms of Services of Willify</label>
+                            <h3 class="error" id="terms-error"></h3>
+                        </div>
+                        <div class="signup-button">
+                            <button type="submit">Sign Up</button>
+                        </div>
+                    </form>
+                    <script src="signup-page.js"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- about section -->
+    <div class="about">
+        <div class="logo-about">
+            <h1>Willify</h1>
+        </div>
+        <h2>Copyright © 2006-2024 Willify, LLC</h2>
+        <a href="about-page.html">About Us</a>
+    </div>
+</body>
+</html>

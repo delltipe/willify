@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background-color: rgb(32, 32, 32);
+}
+
+nav{
+    height: 80px;
+    background: rgb(32, 32, 32);
+    color: rgb(66, 217, 108);
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 0;
+}
+
+.nav-items,
+.overview,
+.account{
+    display: flex;
+    font-size: 16px;
+}
+.overview{
+    margin-right: 0 0.5rem;
+}
+
+.logo h2{
+    color: rgb(66, 217, 108);
+    cursor: pointer;
+    margin: 0 0.5rem;
+    font-size: 36px;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+nav li{
+    list-style: none;
+    margin: 0 0.5rem;
+}
+
+.nav-items a{
+    display: block;
+    padding: 8px;
+    background-color: rgb(66, 217, 108);
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(32, 32, 32);
+}
+
+.nav-items a:hover{
+    background-color: rgb(54, 155, 82);
+    transition: all ease-in-out 300ms;
+}
+
+.about-back{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(14, 14, 14);
+    padding: 80px;
+}
+
+.about-text{
+    max-width: 702px;
+}
+
+.about-text h1{
+    font-size: 72px;
+    font-weight: bold;
+    color: white;
+}
+
+.about-text h2{
+    padding-top: 1rem;
+    font-size: 24px;
+    font-weight: normal;
+    color: white;
+}
+
+.about-image{
+    padding-top: 44px;
+}
+
+.about-image img{
+    width: 533px;
+    height: 356;
+}
+
+.highlight{
+    color: rgb(66, 217, 108);
+    font-weight: bold;
+}
+
+.founder-back{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(14, 14, 14);
+    padding: 80px;
+}
+
+.founder-image{
+    padding-top: 44px;
+}
+
+.founder-image img{
+    width: 300px;
+    height: 300;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(32, 32, 32);
+    padding: 48px;
+    text-align: center;
+    justify-content: center;
+}
+
+.logo-about h1{
+    color: rgb(66, 217, 108);
+    cursor: pointer;
+    font-size: 64px;
+}
+
+.about h2{
+    color: rgb(217, 217, 217);
+    cursor: default;
+    font-size: 16px;
+}
+
+.about a{
+    color: rgb(217, 217, 217);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 24px;
+}
